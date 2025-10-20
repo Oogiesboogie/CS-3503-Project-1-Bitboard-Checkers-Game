@@ -1,0 +1,899 @@
+C:\Users\sjp12\CLionProjects\Project1_BitBoard_Checkers\cmake-build-debug\Project1_BitBoard_Checkers.exe
+Project1 BitBoard Checkers
+1) Phase1 tests (bit ops)
+2) Play checkers (interactive)
+3) Quit
+>2
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   b   b   b   b |
+5 | .   .   .   .   |
+4 |   .   .   .   . |
+3 | r   r   r   r   |
+2 |   r   r   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>a3 b4
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   b   b   b   b |
+5 | .   .   .   .   |
+4 |   r   .   .   . |
+3 | .   r   r   r   |
+2 |   r   r   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b6 a5
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   b   b   b |
+5 | b   .   .   .   |
+4 |   r   .   .   . |
+3 | .   r   r   r   |
+2 |   r   r   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>c3 b4
+ Illegal move.
+  +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   b   b   b |
+5 | b   .   .   .   |
+4 |   r   .   .   . |
+3 | .   r   r   r   |
+2 |   r   r   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>c3 d4
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   b   b   b |
+5 | b   .   .   .   |
+4 |   r   r   .   . |
+3 | .   .   r   r   |
+2 |   r   r   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>a5 c3
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   b   b   b |
+5 | .   .   .   .   |
+4 |   .   r   .   . |
+3 | .   b   r   r   |
+2 |   r   r   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d3 c4
+ A capture is available. You must capture.
+  +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   b   b   b |
+5 | .   .   .   .   |
+4 |   .   r   .   . |
+3 | .   b   r   r   |
+2 |   r   r   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d2 b4
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   b   b   b |
+5 | .   .   .   .   |
+4 |   r   r   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d6 5c
+ Illegal move.
+  +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   b   b   b |
+5 | .   .   .   .   |
+4 |   r   r   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d6 c5
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   .   b   b |
+5 | .   b   .   .   |
+4 |   r   r   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b4 d6
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   r   b   b |
+5 | .   .   .   .   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>e7 d5
+ A capture is available. You must capture.
+  +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   b   b   |
+6 |   .   r   b   b |
+5 | .   .   .   .   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>e7 c5
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   .   b   |
+6 |   .   .   b   b |
+5 | .   b   .   .   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d4 b6
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   b   .   b   |
+6 |   r   .   b   b |
+5 | .   .   .   .   |
+4 |   .   .   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>c7 a5
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   b   |
+6 |   .   .   b   b |
+5 | b   .   .   .   |
+4 |   .   .   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b2 c3
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   b   |
+6 |   .   .   b   b |
+5 | b   .   .   .   |
+4 |   .   .   .   . |
+3 | .   r   r   r   |
+2 |   .   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>h6 g5
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   b   |
+6 |   .   .   b   . |
+5 | b   .   .   b   |
+4 |   .   .   .   . |
+3 | .   r   r   r   |
+2 |   .   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>c3 d4
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   b   |
+6 |   .   .   b   . |
+5 | b   .   .   b   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   .   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>g7 h6
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   .   |
+6 |   .   .   b   b |
+5 | b   .   .   b   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   .   .   r   r |
+1 | r   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>a1 b2
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   .   |
+6 |   .   .   b   b |
+5 | b   .   .   b   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | .   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>a5 b4
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   .   |
+6 |   .   .   b   b |
+5 | .   .   .   b   |
+4 |   b   r   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | .   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d4 c5
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   .   |
+6 |   .   .   b   b |
+5 | .   r   .   b   |
+4 |   b   .   .   . |
+3 | .   .   r   r   |
+2 |   r   .   r   r |
+1 | .   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b4 a3
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   .   |
+6 |   .   .   b   b |
+5 | .   r   .   b   |
+4 |   .   .   .   . |
+3 | b   .   r   r   |
+2 |   r   .   r   r |
+1 | .   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b2 c3
+   +-------------------------------+
+8 |   b   b   b   b |
+7 | b   .   .   .   |
+6 |   .   .   b   b |
+5 | .   r   .   b   |
+4 |   .   .   .   . |
+3 | b   r   r   r   |
+2 |   .   .   r   r |
+1 | .   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>f8 e7
+   +-------------------------------+
+8 |   b   b   .   b |
+7 | b   .   b   .   |
+6 |   .   .   b   b |
+5 | .   r   .   b   |
+4 |   .   .   .   . |
+3 | b   r   r   r   |
+2 |   .   .   r   r |
+1 | .   r   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>c1 d2
+   +-------------------------------+
+8 |   b   b   .   b |
+7 | b   .   b   .   |
+6 |   .   .   b   b |
+5 | .   r   .   b   |
+4 |   .   .   .   . |
+3 | b   r   r   r   |
+2 |   .   r   r   r |
+1 | .   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>a3 b2
+   +-------------------------------+
+8 |   b   b   .   b |
+7 | b   .   b   .   |
+6 |   .   .   b   b |
+5 | .   r   .   b   |
+4 |   .   .   .   . |
+3 | .   r   r   r   |
+2 |   b   r   r   r |
+1 | .   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>c3 d4
+   +-------------------------------+
+8 |   b   b   .   b |
+7 | b   .   b   .   |
+6 |   .   .   b   b |
+5 | .   r   .   b   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   b   r   r   r |
+1 | .   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b2 a1
+   +-------------------------------+
+8 |   b   b   .   b |
+7 | b   .   b   .   |
+6 |   .   .   b   b |
+5 | .   r   .   b   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>c5 b6
+   +-------------------------------+
+8 |   b   b   .   b |
+7 | b   .   b   .   |
+6 |   r   .   b   b |
+5 | .   .   .   b   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>a7 c5
+   +-------------------------------+
+8 |   b   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   b   b |
+5 | .   b   .   b   |
+4 |   .   r   .   . |
+3 | .   .   r   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d4 b6
+   +-------------------------------+
+8 |   b   b   .   b |
+7 | .   .   b   .   |
+6 |   r   .   b   b |
+5 | .   .   .   b   |
+4 |   .   .   .   . |
+3 | .   .   r   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b8 c7
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   b   b   .   |
+6 |   r   .   b   b |
+5 | .   .   .   b   |
+4 |   .   .   .   . |
+3 | .   .   r   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>e3 d4
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   b   b   .   |
+6 |   r   .   b   b |
+5 | .   .   .   b   |
+4 |   .   r   .   . |
+3 | .   .   .   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b7 a5
+ A capture is available. You must capture.
+  +-------------------------------+
+8 |   .   b   .   b |
+7 | .   b   b   .   |
+6 |   r   .   b   b |
+5 | .   .   .   b   |
+4 |   .   r   .   . |
+3 | .   .   .   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>c7 a5
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   b   b |
+5 | b   .   .   b   |
+4 |   .   r   .   . |
+3 | .   .   .   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d4 e5
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   b   b |
+5 | b   .   r   b   |
+4 |   .   .   .   . |
+3 | .   .   .   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>f6 d4
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | b   .   .   b   |
+4 |   .   b   .   . |
+3 | .   .   .   r   |
+2 |   .   r   r   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>f2 e3
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | b   .   .   b   |
+4 |   .   b   .   . |
+3 | .   .   r   r   |
+2 |   .   r   .   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d4 f2
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | b   .   .   b   |
+4 |   .   .   .   . |
+3 | .   .   .   r   |
+2 |   .   r   b   r |
+1 | B   .   r   r   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>g1 e3
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | b   .   .   b   |
+4 |   .   .   .   . |
+3 | .   .   r   r   |
+2 |   .   r   .   r |
+1 | B   .   r   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>a5 b4
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   b   |
+4 |   b   .   .   . |
+3 | .   .   r   r   |
+2 |   .   r   .   r |
+1 | B   .   r   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>d2 c3
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   b   |
+4 |   b   .   .   . |
+3 | .   r   r   r   |
+2 |   .   .   .   r |
+1 | B   .   r   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b4 d2
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   b   |
+4 |   .   .   .   . |
+3 | .   .   r   r   |
+2 |   .   b   .   r |
+1 | B   .   r   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>e1 c3
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   b   |
+4 |   .   .   .   . |
+3 | .   r   r   r   |
+2 |   .   .   .   r |
+1 | B   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>a1 b2
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   b   |
+4 |   .   .   .   . |
+3 | .   r   r   r   |
+2 |   B   .   .   r |
+1 | .   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>e3 f4
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   b   |
+4 |   .   .   r   . |
+3 | .   r   .   r   |
+2 |   B   .   .   r |
+1 | .   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>b2 d4
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   b   |
+4 |   .   B   r   . |
+3 | .   .   .   r   |
+2 |   .   .   .   r |
+1 | .   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>g3 h4
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   b   |
+4 |   .   B   r   r |
+3 | .   .   .   .   |
+2 |   .   .   .   r |
+1 | .   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>g5 e3
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   .   |
+4 |   .   B   .   r |
+3 | .   .   b   .   |
+2 |   .   .   .   r |
+1 | .   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>h4 g5
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   b |
+5 | .   .   .   r   |
+4 |   .   B   .   . |
+3 | .   .   b   .   |
+2 |   .   .   .   r |
+1 | .   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>h6 f4
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   . |
+5 | .   .   .   .   |
+4 |   .   B   b   . |
+3 | .   .   b   .   |
+2 |   .   .   .   r |
+1 | .   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>h2 g3
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   . |
+5 | .   .   .   .   |
+4 |   .   B   b   . |
+3 | .   .   b   r   |
+2 |   .   .   .   . |
+1 | .   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 2 (b/B)
+
+Enter move (from to). Use a3 b4 or numeric 0-63.
+  Commands: save <file>  load <file>  quit
+>f4 h2
+   +-------------------------------+
+8 |   .   b   .   b |
+7 | .   .   b   .   |
+6 |   .   .   .   . |
+5 | .   .   .   .   |
+4 |   .   B   .   . |
+3 | .   .   b   .   |
+2 |   .   .   .   b |
+1 | .   .   .   .   |
+  +-------------------------------+
+    a b c d e f g h
+Turn: Player 1 (r/R)
+
+Player 2 wins.
+Exiting game.
+Project1 BitBoard Checkers
+1) Phase1 tests (bit ops)
+2) Play checkers (interactive)
+3) Quit
+>1
+ Phase 1 tests
+Initial: 00000000 00000000 00000000 00000000
+SetBit 3: 00000000 00000000 00000000 00001000
+SetBit 31: 10000000 00000000 00000000 00001000
+ToggleBit 3: 10000000 00000000 00000000 00000000
+ClearBit 31: 00000000 00000000 00000000 00000000
+GetBit pos 3: 0
+CountBits: 0
+ShiftLeft 2: 00000000 00000000 00000000 00000000
+ShiftRight 1: 00000000 00000000 00000000 00000000
+Hex: 0x00000000
+Phase 1 tests complete.
+
+Project1 BitBoard Checkers
+1) Phase1 tests (bit ops)
+2) Play checkers (interactive)
+3) Quit
+>3
+
+Process finished with exit code 0
